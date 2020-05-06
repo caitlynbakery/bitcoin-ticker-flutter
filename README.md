@@ -20,4 +20,32 @@ We’re going to make a crypto currency price checking app. By the end of the mo
 - How to check the platform your app is being run on to customise the UI for that platform.
 - Revise previous concepts by completing the challenges.
 
+---
+---
 
+# For Loops
+For loops are used to repeat certain sections of code and can iterate
+through a list. I learned two types of for loops.
+
+## for i loop
+This loop assigns a variable and loops through the code for a certain number of times.
+
+```dart
+for(int i; i<10; i++){
+    print i;
+}
+```
+
+## for in loop
+This loop iterates through a List and assigns each item of the list to a variable.
+The for in loop can be used to manage more complex pieces of code, like a widget.
+
+```dart
+for (String currency in currenciesList) {
+      var newItem = DropdownMenuItem(
+        child: Text(currency),
+        value: currency,
+      );
+      dropdownItems.add(newItem);
+    }
+```
