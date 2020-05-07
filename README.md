@@ -49,3 +49,27 @@ for (String currency in currenciesList) {
       dropdownItems.add(newItem);
     }
 ```
+
+---
+---
+
+# Cupertino Widget
+
+[Cupertino Widget](https://flutter.dev/docs/development/ui/widgets/cupertino)  
+are used to make an iOS-styled app and contain various widgets that
+are found on the iPhone. For example, there is CupertinoButton, CupertinoDialog,  
+and CupertinoSlider. I used the [CupertinoPicker](https://api.flutter.dev/flutter/cupertino/CupertinoPicker-class.html)
+to create a iOS-styled picker.
+
+![Flutter Widget](https://flutter.dev/images/widget-catalog/cupertino-picker.png)
+
+```dart
+CupertinoPicker(
+  backgroundColor: Colors.lightBlue,
+  itemExtent: 32.0,
+  onSelectedItemChanged: (selectedIndex) {
+    print(selectedIndex);
+  },
+  children: getPickerItems(),
+),
+```
