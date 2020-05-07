@@ -61,7 +61,7 @@ are found on the iPhone. For example, there is CupertinoButton, CupertinoDialog,
 and CupertinoSlider. I used the [CupertinoPicker](https://api.flutter.dev/flutter/cupertino/CupertinoPicker-class.html)
 to create a iOS-styled picker.
 
-<img width="25%" src="https://flutter.dev/images/widget-catalog/cupertino-picker.png">
+<img width="40%" src="https://flutter.dev/images/widget-catalog/cupertino-picker.png">
 
 <!--![Flutter Widget](https://flutter.dev/images/widget-catalog/cupertino-picker.png)-->
 
